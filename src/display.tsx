@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Birdy } from './components/birdy';
 
 export const Display: React.FC = () => {
     const [offset, setOffset] = useState(0);
@@ -13,6 +14,7 @@ export const Display: React.FC = () => {
 
     return(
         <div className='display'>
+            <Birdy />
         </div>
     );
 };
